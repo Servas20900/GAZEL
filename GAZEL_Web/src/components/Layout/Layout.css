@@ -1,0 +1,28 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  margin-top: 73px; /* Altura del header fijo */
+  padding: 2rem 1.5rem;
+  max-width: 1400px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-top: 120px; /* Altura del header en mobile (con search abajo) */
+    padding: 1.5rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-content {
+    padding: 1rem 0.75rem;
+  }
+}

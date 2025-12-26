@@ -1,0 +1,140 @@
+.order-success-page {
+  min-height: calc(100vh - 73px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.success-container {
+  width: 100%;
+  max-width: 700px;
+  background: white;
+  padding: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.success-icon {
+  width: 80px;
+  height: 80px;
+  background-color: #d1fae5;
+  color: #065f46;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 auto 1.5rem;
+  font-weight: bold;
+}
+
+.success-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 0 0 0.75rem 0;
+}
+
+.success-message {
+  font-size: 1.125rem;
+  color: #6b7280;
+  margin: 0 0 2rem 0;
+}
+
+.order-details {
+  text-align: left;
+  padding: 2rem 0;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 2rem;
+}
+
+.order-details h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 0 0 1rem 0;
+}
+
+.order-details h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 1.5rem 0 0.75rem 0;
+}
+
+.order-info {
+  background-color: #f9fafb;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.info-label {
+  color: #6b7280;
+}
+
+.info-value {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.shipping-info {
+  background-color: #f9fafb;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.shipping-info p {
+  margin: 0.5rem 0;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.next-steps {
+  margin-top: 1.5rem;
+}
+
+.next-steps ul {
+  text-align: left;
+  padding-left: 1.5rem;
+  margin: 0;
+}
+
+.next-steps li {
+  color: #4b5563;
+  line-height: 1.8;
+  margin: 0.5rem 0;
+}
+
+.success-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .success-container {
+    padding: 2rem;
+  }
+
+  .success-title {
+    font-size: 1.5rem;
+  }
+
+  .success-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+  }
+}

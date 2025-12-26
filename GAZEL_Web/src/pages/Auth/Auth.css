@@ -1,0 +1,146 @@
+.auth-page {
+  min-height: calc(100vh - 73px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%);
+}
+
+.auth-container {
+  width: 100%;
+  max-width: 450px;
+  background: white;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.auth-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.auth-brand {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ec4899;
+  margin: 0 0 0.5rem 0;
+  letter-spacing: 0.1em;
+}
+
+.auth-subtitle {
+  color: #6b7280;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #374151;
+  font-size: 0.875rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #ec4899;
+}
+
+.form-group input.error {
+  border-color: #ec4899;
+}
+
+.error-message {
+  color: #ec4899;
+  font-size: 0.875rem;
+}
+
+.submit-error {
+  padding: 0.75rem;
+  background-color: #fce7f3;
+  color: #831843;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+.btn-auth {
+  width: 100%;
+  padding: 1rem;
+  background-color: #ec4899;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 0.5rem;
+}
+
+.btn-auth:hover:not(:disabled) {
+  background-color: #db2777;
+}
+
+.btn-auth:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.auth-footer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.auth-footer p {
+  color: #6b7280;
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.toggle-button {
+  background: none;
+  border: none;
+  color: #ec4899;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+  font-size: 0.875rem;
+}
+
+.toggle-button:hover {
+  color: #db2777;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .auth-container {
+    padding: 2rem;
+  }
+
+  .auth-brand {
+    font-size: 2rem;
+  }
+}
